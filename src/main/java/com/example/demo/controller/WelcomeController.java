@@ -36,7 +36,7 @@ public class WelcomeController {
 
     @GetMapping("/students")
     private List<StudentDto> getStudents() {
-        return studentService.getSgittudents();
+        return studentService.getStudents();
     }
 
     @PostMapping("employee")
