@@ -1,9 +1,9 @@
 package com.example.demo.service;
 
-import com.example.demo.entity.Employees;
-import com.example.demo.model.Employee;
+import com.example.demo.entity.EmployeeEntity;
+import com.example.demo.model.EmployeeDto;
 
 public interface EmployeeService {
-    Employees saveEmployee(Employee employee);
-    Employees updateEmployee(Employee employee);
+    EmployeeEntity saveEmployee(EmployeeDto employee);
+    EmployeeEntity updateEmployee(EmployeeDto employee);
 }

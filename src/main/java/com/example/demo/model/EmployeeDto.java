@@ -3,7 +3,8 @@ package com.example.demo.model;
 import lombok.*;
 
 @Data
-public class Employee {
+@Builder
+public class EmployeeDto {
     private Long id;
     private String name;
     private String email;
